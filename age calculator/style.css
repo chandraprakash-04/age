@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(135deg , #0764e7,#a6bfe3) ;
+    
+}
+.container{
+    box-shadow: 0 0 4px 1px rgb(47, 46, 46);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    color: #020202;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.date-container label{
+    font-size: larger;
+    margin-right: 10px;
+}
+#birthdate{
+    width: 140;
+    height: 40;
+    border: none;
+    box-shadow: 0 0 2px 1px rgb(47, 46, 46);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 4px;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+#calculateBtn{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0 0 2px 1px rgb(47, 46, 46);
+    border-radius: 5px;
+    padding: 4px;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+#output{
+    font-size: larger;
+    margin-top: 10px;
+}
